@@ -1,4 +1,4 @@
-# Loop Reconstruction Pipeline
+# Protein Loop Reconstruction Pipeline
 
 This project provides a pipeline for identifying and modeling missing internal loops in protein structures using PDB/mmCIF files. It parses the structure, detects unresolved regions, and generates plausible backbone conformations for missing loops. The modeling step is performed using the Cyclic Coordinate Descent (CCD) algorithm, which iteratively adjusts backbone torsion angles (φ and ψ) to geometrically "close" the loop between known anchor residues, ensuring spatial continuity of the protein backbone.
 
